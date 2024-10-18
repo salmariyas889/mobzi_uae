@@ -1,0 +1,1193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    overflow-x: hidden !important; /* Hide horizontal scrollbar */ 
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    }
+.logo img{
+    width: 11vw;
+    height: 10vh;
+}
+.logo{
+    margin-left: 1vw;
+    padding-top: -.2vw;
+    padding-left: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding: 2.5vh 4vw;
+    position: relative;
+}
+ nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(59, 58, 58);
+    transition: all .3s;
+}
+nav a:hover{
+    color: brown;
+}
+.details-home {
+    display:none;
+    
+}
+.first-data{
+    padding-left: 2.5vw;
+}
+nav ul li:hover .details-home{
+    display: block;
+   background: rgb(62, 10, 10);
+   padding: .5rem;
+   color: #EDE7D5;
+    position: absolute;
+    top:3.57rem;
+    left: -0.9rem;
+   width: max-content;
+} 
+ nav ul li:hover .details-home ul{
+    display: block;
+    margin-top: -24%;
+}
+
+nav ul li:hover .details-home ul li{
+    width: 10em; 
+}
+
+.details-home ul li a{
+    color: #e9dedf;
+}
+
+.details-home ul li a:hover{
+    color: #F7A072;
+}
+
+.background{
+    margin-top: 2%;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img img{
+    max-width: 34vw;
+    max-height: 44vh;
+    transition: transform 1s;
+}
+.img img:hover{
+    transform: scale(1.1);
+}
+.img1 img{
+    min-width: 100%;
+}
+.heading  {
+    margin-top: -150vh;
+    margin-left: 27vw;
+    font-size: 2.9rem;
+    color: brown;
+    overflow: hidden;
+    white-space: nowrap;
+    
+} 
+.index-content{
+    font-size: 1.2em;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    background: repeating-linear-gradient(45deg, #e9e1e1, #00000012 100px);
+    margin-bottom: 9vh;
+    padding: 4%;
+    text-align: justify;
+    line-height: 1.9em;
+    font-family: sans-serif;
+}
+.brands-name{
+    font-weight: bold;
+}
+.index-para-2{
+    margin-top: 6vh;
+}
+.hamburger{
+    display: none;
+}
+
+.nav-about{
+    padding-left: 3vw;
+    padding-top: 2vh;
+    background: #f8f8f273;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: fixed;
+    width: 100%;
+}
+.nav-about img{
+    width: 11vw;
+    height: 10vh;
+}
+
+.nav-about a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(59, 58, 58);
+}
+.nav-about a:hover{
+    color: brown;
+}
+
+.heading-about{
+    padding-top: 18vh;
+    padding-left: 23vw;
+    font-weight: bold;
+    color: #50240d;
+}
+.content{
+    text-align: center;
+    padding: 2em;
+    background:  linear-gradient(to right,#f8f8f273, #50240d );
+    margin: 2vh 10vw 4vh;
+}
+ .para1{
+    text-align: justify;
+    margin-top: 9vh;
+    font-size: 1.15em;
+    font-family: sans-serif;
+    line-height: 1.7em;
+} 
+.section1-about{
+    margin-top: 7vh;
+    margin-bottom: 8vh;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    background: #452210;
+    color: black;
+}
+
+.section1-about h2{
+    color: #F4EBD0;
+}
+
+.section1-about .about-head1{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 2.3rem;
+    color: #EDE7D5;
+}
+.section1-about .about-head2{
+    margin-bottom: 2.5vh;
+    color: black;
+    font-weight: 700;
+}
+.section1-about .name-about{
+    color: #D8C3A5;
+}
+
+.section1-about .name-main-about{
+    font-size: 1.2em;
+}
+
+.section1-about .detail-about{
+    color: #F7A072 ;
+}
+
+.section1-about img{
+    padding-bottom: 3%;
+    margin-top: 4vh;
+    margin-left: 8vw;
+    transition: transform .3s ease-in ;
+}
+.section1-about img:hover{
+    transform: scale(1.1);
+}
+
+.base{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0c0c0b;
+    color: #EDE7D5;
+    margin-bottom: 2.5vh;
+    padding: 1em;
+    margin-top: -7vh;
+}
+.base .left-about i{
+    color:#EDE7D5;
+}
+ .base a{
+    text-decoration: none;
+    color:#EDE7D5;
+}
+.base li{
+    list-style: none;
+    font-weight: 500;
+    padding: 1.1rem;
+}
+.left-about{
+    padding: 1em;
+    font-size: .85em;
+    margin-left: -2vw;
+}
+.address-about,.phone-about,.email-about{
+    padding: 1em;
+    margin-left: 1.2vw;
+    margin-bottom: 1.1vh;
+}
+.left-about i{
+    padding-left: 10vw;
+    margin-bottom: 4vh;
+    transition:transform .3s ease-out ;
+}
+.left-about .number-about{
+    padding-left: 7vw;
+}
+.left-about .mail-about{
+    padding-left: 4vw;
+}
+.middle-about{
+    margin-left: -6vw;
+    margin-top: 2vh;
+}
+.right-about {
+    margin-right: 8vw;
+}
+.middle-about li a:hover{
+    color: #c69c62;
+}
+.right-about .barcode-about{
+    padding-left: 3vw;
+    padding-top: 4vh;
+    margin-top: 4vh;
+}
+
+.right-about img{
+    width: 14vw;
+}
+.right-about .icons-about{
+    margin-top: 4vh;
+}
+
+.right-about .icons-1{
+    border: 2px solid blue;
+    border-radius: 25px;
+    padding: .55em;
+    font-size: .95em;
+    margin-left: .5rem;
+    background-color: blue;
+}
+.address-about:hover,.phone-about:hover,.email-about:hover{
+    border-bottom: 1px solid white;
+    transform:  skewX(10deg);
+}
+
+.right-about i{
+    color: white;
+}
+footer{
+    margin-top: -1vh;
+    margin-bottom: 2vh;
+}
+footer p{
+    color: #444443;
+    text-align: center;
+    font-size: .95em;
+    font-weight: 500;
+}
+
+/* Accessories  */
+
+.nav{
+   color: #f8f8f273;
+}
+nav a{
+    margin-left: -45%;
+}
+.collections{
+    display: block;
+    background:#F5F5DC;
+    margin-left: 4vw;
+    margin-top: 7vh;
+    margin-right: 80vw;
+    line-height: 2.25em;
+}
+/* For Responsive */
+
+.collections-responsive{
+    display: none;
+    margin-top: 4%;
+}
+.collections-responsive .products-lists{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 3%;
+    background: #BAB86C;
+    padding: 1%;
+}
+.collections-responsive .products-lists a{
+    text-decoration: none;
+    padding: .5em;
+    color:  #3C2F2F;
+}
+
+.collections-responsive .products-lists a:hover{
+    color: #D8C3A5;
+    background-color: #4F4F4F;
+}
+.collections-responsive .products-lists li{
+    list-style: none;
+}
+
+/**/
+.heading-products{
+    margin-top: -2vh;
+    margin-bottom: 3vh;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background-color: #BAB86C;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: #3C2F2F;
+}
+
+.collections ul li{
+    list-style: none;
+    padding: .5em;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 1vh;
+    font-family: "Poppins";   
+}
+.collections ul a:hover{
+     color: #D8C3A5;
+}
+.collections a{
+    text-decoration: none;
+    color: #3C2F2F;
+    padding: .2vw;
+}
+
+.collections a.active{
+    color: #6B4F4F;
+    font-weight: bold;
+    border-bottom: 2px solid #8B5D5D;
+}
+ .images-accessories{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: 28vw;
+    margin-top: -81vh;   
+   padding: 4%;
+    
+} 
+
+ .images-accessories img{
+    max-width:85%;
+    height:68%;
+    vertical-align: middle;
+    transition: transform 1s;
+}
+.images-accessories img:hover{
+    transform: scale(1.1);
+}
+
+
+/* Brands */
+
+.brands-details h2{
+    padding-top: 27vh;
+    padding-left: 17vw;
+    color: #50240d;
+}
+.brands-details p{
+    background:linear-gradient(to right,#f8f8f273, #50240d );
+    text-align: justify;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    margin-right: 6vw;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.brands-details .brands-name{
+    font-weight: bold;
+}
+
+.mobzi1{
+    color: #4b2b1b;
+}
+.foneng1{
+    color:  #c6c676;
+}
+.kaku1{
+    color: #4FC3F7;
+}
+
+.brands-image{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin-top: 13vh;
+
+
+}
+
+.brands-image img{
+   width: 20%;
+    height: 15%;
+    padding: 2%;
+}
+
+.brand-description{
+    margin-left: 3vw;
+    margin-top: 7vh;
+}
+
+.brand-description details{
+    padding: 1.5%;
+}
+
+.brand-style{
+    font-family: "Poppins";
+    margin-top: 3vh;
+    line-height: 1.75em;
+    font-size: 1.2em;
+    border: 2px   #A05252 ;
+    border-style: dashed;
+    padding: 3%;
+    text-align: justify;
+    color: #4F4F4F;
+}
+summary{
+    color:#800000;
+    cursor:pointer;
+}
+
+.base-brands{
+    margin-top: 3vh;
+}
+
+/* Contact Page */
+.contact_head{
+    margin-top: 10vh;
+    margin-left: 19vw;
+    font-size: 1.3em;
+    color: #352611;
+    border-bottom: 2px solid black;
+    padding-left: 2vw;
+    margin-right: 67vw;
+    padding-bottom: 1vh;
+    font-weight: 600;
+}
+.company-name{
+    margin-top: 17vh;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 600;
+    color:#50240d;
+}
+ 
+.formcontent  input,textarea,button{
+   display: block;
+}
+.contact_form{
+    margin-top: 14vh;
+    margin-left: 29vw;
+    margin-right: 24vw;
+    border: 2px solid  #452210;
+    padding: 30px;
+    background-color:  #F5F5DC ;
+}
+.contact_form .formhead{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+    color: #452210;
+    font-weight: bold;
+}
+
+.formcontent input{
+    width: 100%;
+    height: 5.5vh;
+    border-radius: 4px;
+    margin-bottom: 2%;
+    
+}
+.formcontent textarea{
+    width: 100%;
+    height: 26vh;
+    resize: none;
+    border-radius: 4px;
+    border-color: 1px solid #452210;
+}
+.formcontent ::placeholder{
+    padding-left: 2%;
+    color:  #888;
+}
+ textarea::placeholder{
+    padding-top: .4%;
+    color:  #888;
+}
+input:focus{
+    border-color: #66afe9;
+}
+
+.formcontent button{
+    width: 100%;
+    height: 6vh;
+    margin-top: 4%;
+    background-color: #452210 ;
+    color: #FFF;
+    Border: 2px solid #452210;
+    font-Size: 16px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+     Border-Radius: 5px; 
+}
+
+.formcontent button:hover{
+    background-color: #3C2F2F ;
+}
+
+.formcontent  input,textarea{
+ background-color: #FFF;
+ border-color:#452210;
+ color:  #3C2F2F;
+ padding: 10px;
+}
+
+.base-contact{
+    margin-top: 3%;
+}
+
+
+@media  screen and (max-width:600px) {
+    /* Contact Page */ 
+
+    nav ul{
+        display: none;
+    }
+
+    .logo img{
+        width: 75%;
+        height: 12vh;
+    }
+
+    .contact_head{
+        margin-right:53vw;
+        font-size: 1em;
+        padding-left:1vw ;
+        border-bottom: none;
+    }
+
+    .company-name{
+        font-size: 1.8em;
+        margin-top: 7vh;
+        margin-left: 8%;
+    }
+    .contact_form{
+        padding: 10px;
+        margin-left: 15vw;
+        margin-right: 10vw;
+    }
+    .base-contact{
+        display: block;
+    }
+    .base-contact{
+        margin-top: 7%;
+    }
+
+    .base-contact .left-about  .space-about{
+        padding-left: 17%;
+    }
+
+    .base-contact .left-about  .number-about{
+        padding-left: 12%;
+    }
+
+    .base-contact .left-about  .mail-about{
+        padding-left: 14%;
+    }
+   
+    .base-contact .left-about{
+        text-align: center;
+        margin-left: -15vw;
+    }
+    
+    .base-contact .middle-about{
+        margin-top: 4vh;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid  #fff;
+        padding: 4%;
+    }
+    .base-contact .middle-about ul{
+        text-align: center;
+    }
+    .base-contact .right-about{
+        margin-right: none;
+        text-align: center;
+    }
+    .base-contact .right-about .icons-about{
+        margin-top: 12%;
+    }
+
+    .base-contact .right-about .icons-1 {
+        font-size: 80%;
+        padding: 2.3%;
+    }
+
+    .base-contact .right-about img{
+        width: 46%;
+    }
+
+/* About Page */
+
+    .nav-about > .padding{
+        display: none;
+    }
+    .nav-about > img{
+        display:inline-block;
+    }
+    .nav-about img{
+        width: 102%;
+        height: 19vh;
+        margin-left: -10%;
+    }
+    .heading-about{
+        padding-top: 29vh;
+        font-size: 2em;
+    }
+    .content{
+        margin-right: -250%;
+        margin-top: 8%;
+        margin-left: 9%;
+    }
+    .content img{
+        width: 60%;
+        padding-left: 10%;
+    }
+    .para1{
+        padding-right: 3%;
+        margin-top: 13vh;
+        font-size: 1.8em;
+        line-height: 1.8em;
+    }
+    .section1-about{
+        margin-right: -246%;
+        margin-left: 8%;
+    }
+    .section1-about h2{
+        font-size: 3.3em;
+    }
+    .section1-about img{
+        width: 50%;
+        padding-bottom: 4%;
+        text-align: center;
+        padding-left: 15%;
+    }
+    .section1-about .about-head1 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .section1-about .name-main-about{
+        font-size: 1.7em;
+    }
+    .section1-about .name-about {
+        font-size: 1.5em;
+    }
+    .base-about{
+        display: block;
+        margin-left: 0.5%;
+        margin-right: -248%;
+        
+    }
+    .base-about .left-about{
+        font-size: 2.6em;
+        border-bottom: 2px solid #fff;
+        text-align: center;
+    }
+    .base-about .space-about{
+       margin-bottom: 6%;
+        margin-top: 3%;
+    }
+    .base-about .left-about .number-about {
+        margin-top: 4%;
+    }
+    .base-about .left-about .mail-about{
+       margin-top: 4%;
+    }
+    .base-about .middle-about{
+        text-align: center;
+        font-size: 2.8em;
+        border-bottom: 2px solid #fff;
+    }
+    .base-about .middle-about ul{
+        line-height: 3em;
+    }
+    .base-about .right-about{
+        text-align: center;
+        padding-top: 3%;
+        font-size: 2.5em;
+        margin-top: 4%;
+    }
+    .base-about .right-about .icons-1{
+        margin-left: 8%;
+        border-radius: 44%;
+    }
+    .base-about .right-about img{
+        width: 20%;
+    }
+    .base-about .right-about .barcode-about {
+        margin-top:5%;
+        margin-bottom: 3%;
+    }
+    .about-footer{
+        margin-right: -227%;
+        font-size: 2.7em;
+        font-weight: 700;
+    }
+
+    /* Accessories */
+
+    body{
+         overflow-x: hidden !important; /* Hide horizontal scrollbar */ 
+    }
+    .logo img{
+        width: 80%;
+        height: 30vh;
+    }
+    .logo{
+        margin-left: 10vw;
+    }
+    nav .padding{
+        display: none;
+    }
+    .collections{
+        display: none;
+    }
+    
+    .collections-responsive{
+        display: block;
+        margin-top: 5%;
+        min-width: 386%;
+    }
+    .products-lists{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 3%;
+        background: #BAB86C;
+        padding: 1%;
+    }
+    .products-lists a{
+        text-decoration: none;
+        padding: .5em;
+        color:  #3C2F2F;
+    }
+    
+    .products-lists a:hover{
+        color: #D8C3A5;
+        background-color: #4F4F4F;
+    }
+    .products-lists li{
+        list-style: none;
+        font-size:215%;
+        font-weight: 600;
+    }
+    .images-accessories {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-left: 42%;
+         margin-top: 15%;
+         min-width: 308%;
+    }
+
+    
+    .heading-products{
+        font-size: 4em;
+    }
+    .products-lists{
+        text-align: center;
+    }
+    .images-accessories img{
+        width: 80%;
+        margin-bottom: 8%;
+        transition: transform 1s;
+    }
+    .images-accessories img:hover{
+        transform: scale(1.1);
+    }
+    .base-products{
+        margin-top: 15%;
+        margin-right: -267%;
+    }
+    .base-products .space-about {
+        margin-left: 5%;
+    }
+    .base-products  .left-about .mail-about{
+        margin-left: 2%;
+    }
+    .base-products .right-about{
+        padding: 3%;
+    }
+    .base-products .right-about .barcode-about img{
+    width: 24%;
+    margin-top: 6%;
+    }
+    
+
+    /* Index Page */
+    
+    .logo-index img {
+        width: 30%;
+        height: 20%;
+        margin-top: 2%;
+    }
+
+    .img1 img{
+       max-width:100%;
+        margin-right: -46%;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .background{
+        display: block;
+        text-align: center;
+        background:#d7bdb4;;
+        padding: 5%;
+    }
+    .img img{
+        margin-bottom: 1.5%;
+    }
+    .index-content{
+        padding: 6%;
+        line-height: 2em;
+    }
+    .base{
+        display: block;
+    }
+    .base .left-about{
+        text-align: center;
+        margin-right: -6%;
+        margin-left: -13vw;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .base .space-about{
+        margin-left: 11%;
+
+    }
+    .base .number-about{
+        margin-left: 4%;
+    }
+    .base .middle-about{
+        text-align: center;
+        border-bottom: 2px solid;
+        margin-right: -3%;
+        margin-left: -5vw;
+    }
+    .base .right-about{
+        margin-right: -2vw;
+        padding: 5%;
+        text-align: center;
+    }
+    .base .right-about img {
+        width: 25vw;
+    }
+
+/* Contact */
+    .base-contact .middle-about {
+        margin-top: 0vh;
+    }
+}
+
+@media  (min-width:600px) and (max-width:768px){
+    /* Contact Page */
+    .contact_head{
+        font-size: 1.3em;
+        margin-right: 57vw;
+        margin-left: 18vw;
+    }
+    .company-name{
+        font-size: 2em;
+    }
+    .space-about{
+        font-size: .9em;
+    }
+    /* to check */
+    base{
+        padding-left: 1em;
+        padding-top: 1em;
+        margin-right: -7%;
+    }
+    .middle-about{
+        margin-left: -2vw;
+        margin-top: 5vh;
+        font-size: .9em;
+    }
+    .right-about{
+        margin-right: 2%;
+    }
+    .right-about .icons-1 {
+        font-size: 74%;
+    }
+    .right-about .barcode-about{
+        padding-left: 25%;
+    }
+    .icons-about .telegram-style{
+        margin-right: -14%;
+    }
+
+    /* About Page */
+    .nav-about img{
+        width: 100%;
+    }
+    .heading-about{
+        padding-top: 21vh;
+        margin-bottom: 5%;
+    }
+    .content{
+        margin-right: -44%;
+        margin-left: 3%;
+    }
+    .content img{
+        width: 60%;
+    }
+    .para1{
+        padding-right: 4%;
+        font-size: 1.2em;
+        line-height: 1.8em;
+    }
+    .section1-about{
+        margin-right: -43%;
+    }
+    .section1-about img{
+        width: 60%;
+        margin-bottom: 4%;
+    }
+    .base-about{
+        margin-right: -45%;
+        font-size: 1.5em;
+    }
+    .base-about .left-about{
+        margin-left: -22vw;
+    }
+    .base-about .space-about{
+       margin-left: 13%;
+        padding: 2%;
+    }
+    .base-about .address-about, .phone-about, .email-about, i{
+        text-align: center;
+    }
+    .base-about .phone-about, .email-about, p{
+        text-align: center;
+    }
+    .base-about .middle-about{
+        margin-left: -6vw;
+        margin-top: -3vh;
+    }
+    .base-about .middle-about ul{
+        line-height: 237%;
+    }
+    .base-about .right-about{
+        margin-top: -4%;
+    }
+    .base-about .right-about img{
+        width: 93%;
+    }
+    .base-about .right-about .barcode-about{
+        margin-top: 7vh;
+        padding-left: 16%;
+    }
+
+    /* Accessories */
+    .logo img{
+        width: 65%;
+        height: 11vh;
+    }
+    nav .padding{
+        display: none;
+    }
+    .collections{
+        margin-right: 72vw;
+    }
+    .images-accessories{
+        margin-top: -99vh;
+        margin-left: 31vw;
+    }
+    .base-products .left-about {
+        margin-left: -8%;
+    }
+    .base-products .middle-about ul {
+        font-size: .9em;
+        margin-top: 2vh;
+    }
+    .base-products .right-about{
+        margin-right: -3%;
+    }
+    .base-products .right-about img{
+        width: 65%;
+    }
+ /* Index Page */
+    .logo {
+    margin-left: -4vw;
+    }
+    .logo img {
+        width: 100%;
+        height: 10vh;
+    }
+    nav{
+        margin-top: 1%;
+        margin-left: 1.5%;
+    }
+   nav ul{
+    margin-right: -7%;
+   }
+   .img1{
+    margin-top: 3%;
+   }
+   .img1 img{
+    margin-left: 1.5%;
+   }
+   .background{
+    margin-left: 2.4%;
+    display: inline-flex;
+   }
+   .img img{
+    margin-left: -1.5%;
+   }
+   .index-content{
+    margin-right: -7%;
+   }
+   .base{
+    margin-right: -19%;
+    font-size: 1.1em;
+   }
+   .base .left-about{
+    text-align: center;
+    margin-left: -5%;
+   }
+   .base .space-about{
+    margin-left: 10%;
+   }
+
+
+ }
+ @media  (min-width:768px) and (max-width:992px){
+    /* Contact Page */
+    .nav-about img {
+        width: 24vw;
+    }
+    .contact_head{
+        margin-right: 57vw;
+        padding-left: 3%;
+        border-bottom: none;
+    }
+    .company-name{
+        font-size: 2.5em;
+        margin-top: 9vh;
+    }
+    .base{
+        text-align: center;
+    }
+    .left-about i{
+        padding-left: 0vw;
+    }
+    .left-about .number-about{
+        padding: 0;
+    }
+    .right-about{
+        margin-right: 2vw;
+    }
+    .right-about .barcode-about {
+        padding-left : 6% ;
+    }
+    .address-about,.phone-about,.email-about{
+        margin-left: .2%;
+    }
+
+    /* About Page */
+    .heading-about{
+        padding-top: 23vh;
+    }
+    .content{
+        margin-right: -19%;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+    .content img{
+        width: 60%;
+    }
+    .content .para1{
+        padding-left: 2%;
+        padding-right: 3%;
+        line-height: 1.8em;
+    }
+    .section1-about{
+        margin-right: -20%;
+    }
+    .section1-about img {
+        width: 60%;
+        padding-bottom: 2%;
+    }
+    .base-about{
+        margin-right: -19%;
+    }
+    .about-footer{
+        text-align: center;
+        margin-right: -21%;
+        font-size: 1.2em;
+    }
+
+    /* Accessories */
+    .logo img {
+        width: 63%;
+        height: 10vh;
+    }
+    .padding{
+        margin-left: -3%;
+    }
+    .collections{
+        margin-right: 77vw;
+    }
+    .images-accessories{
+        margin-top: -99vh;
+    }
+    
+ }
+ @media screen  and (max-width:405px) {
+    .products-lists li{
+        font-size: 1.2em;
+    }
+    .heading-products{
+        font-size: 2em;
+    }
+    
+ }
+ @media screen  and (max-width:229px){
+   .base-products .right-about i {
+        font-size: .8em;
+    }
+    .base-products .right-about .icons-1{
+        font-size: 1em;
+    }
+    .logo img {
+        width: 128%;
+        height: 32vh;
+    }
+ }
